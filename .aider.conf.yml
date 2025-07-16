@@ -1,0 +1,27 @@
+# Aider Configuration File
+
+# Model settings
+model: deepseek/deepseek-chat  # Default model to use
+edit_format: diff  # Use diff edit format for code changes
+cache_prompts: true  # Enable prompt caching for better performance
+
+# Git settings
+git: true  # Enable git integration
+auto_commits: true  # Automatically commit changes
+attribute_author: true  # Attribute aider in git commits
+
+# Output settings
+pretty: true  # Enable pretty, colorized output
+stream: true  # Enable streaming responses
+dark_mode: true  # Use colors suitable for dark terminal backgrounds
+
+# Map settings
+map_tokens: 4096  # Tokens to use for repo map
+map_refresh: auto  # Auto refresh the repo map
+
+# Notifications
+notifications: false  # Disable terminal bell notifications
+
+# Testing and linting
+auto_lint: true  # Enable automatic linting after changes
+auto_test: false  # Disable automatic testing after changes
